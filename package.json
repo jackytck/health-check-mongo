@@ -5,6 +5,10 @@
   "repository": "git@github.com:jackytck/health-check-mongodb.git",
   "author": "Jacky Tang <jackytck@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "watch": "jest --watchAll"
+  },
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.2.3",

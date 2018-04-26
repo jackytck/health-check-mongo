@@ -1,8 +1,8 @@
 const MongoClient = require('mongodb')
 
-function checkHealth ({ mongoURI }) {
+function checkHealth ({ mongoURI, options }) {
   return new Promise(resolve => {
-    MongoClient.connect(mongoURI, (error, db) => {
+    MongoClient.connect(mongoURI, options, (error, db) => {
       if (error) {
         resolve({
           error,

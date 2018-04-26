@@ -1,16 +1,16 @@
 const MongodbMemoryServer = require('mongodb-memory-server').default
 
-const MONGO_DB_NAME = 'api-altizure-test'
+const MONGO_DB_NAME = 'health-test'
 const mongod = new MongodbMemoryServer({
   instance: {
-    dbName: MONGO_DB_NAME,
-    debug: true
+    dbName: MONGO_DB_NAME
+    // debug: true
   },
   binary: {
-    version: '3.2.16',
-    debug: true
+    version: '3.2.16'
+    // debug: true
   },
-  debug: true,
+  // debug: true,
   autoStart: false
 })
 

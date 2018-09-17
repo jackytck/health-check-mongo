@@ -1,5 +1,5 @@
 {
-  "name": "health-check-mongodb",
+  "name": "health-check-mongo",
   "version": "1.0.1",
   "main": "src/index.js",
   "repository": "git@github.com:jackytck/health-check-mongo.git",

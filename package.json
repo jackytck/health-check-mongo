@@ -1,6 +1,6 @@
 {
   "name": "health-check-mongo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "src/index.js",
   "repository": "git@github.com:jackytck/health-check-mongo.git",
   "author": "Jacky Tang <jackytck@gmail.com>",
